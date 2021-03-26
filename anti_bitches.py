@@ -23,4 +23,6 @@ def menu():
 		elif selection == "3":
 			os.system("clear")
 			os.system("./install")
+                elif selection == "4":
+			
 menu()
