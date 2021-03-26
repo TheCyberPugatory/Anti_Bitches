@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+import os
+os.system("clear")
+print("—" * 50)
+print("W3lc0m3 T0 Bitc73s P01ic3 .....")
+print("—" * 50)
+#Define The Main Menu
+def menu():
+	while True:
+		print("""
+1-Install The Requierment Tools
+2-Exit
+[@]Contact Me On 
+ | Instagram : cproo1 |		
+		""")
+		selection = input("[$] Select a Number: ")
+		if selection == "1":
+			os.system("clear")
+			os.system("./install")
+		elif selection == "2":
+			print("[✓]Thanks For Using my Tool Have A Nice Day.")
+			break
+		else:
+			print("Uncorrect Sentence.")
+menu()
